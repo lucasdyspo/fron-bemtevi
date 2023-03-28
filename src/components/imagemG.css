@@ -1,0 +1,31 @@
+.cont {
+    display: flex;
+    width: 520px;
+    height: 384px;
+    /* left: 288px;
+    top: 245px; */
+    background: #f8f8f8;
+    border-radius: 10px;
+    margin: 40px;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    justify-self: center;
+}
+
+
+.pagehome {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5rem;
+    
+}
+
+
+
+
+.m {
+    width: 310px;
+    height: 254px;
+    margin-right: 2rem;
+
+}

@@ -1,0 +1,92 @@
+    form {
+        width: 384px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .like{
+        display: flex;
+        color:blue;
+        margin-bottom: 0px;
+    margin-top: 0px;
+    position:fixed;
+    border-radius: 364px;
+    background-color: #e9e7e747;
+    border-top-width: 2px;
+    /* padding-top: 7px; */
+    padding-left: 4px;
+    margin-top: 6px;
+    font-size:medium;
+    position: absolute;
+    }
+    
+    input,
+    textarea,
+    select {
+        display: block;
+        margin-top: 10px;
+    }
+    
+    /* ul {
+        display: inline-grid;
+        align-content: space-evenly;
+        height: 200px;
+        padding: 0 0.2em;
+        background: rgba(240, 121, 96);
+        height: 584px;
+        margin: 0;
+        border-radius: 0 5px 5px 0;
+        width: 1.5em;
+        list-style: none;
+        font-size: 1.7rem;
+        color: rgba(255, 255, 255, 0.788);
+    } */
+    
+    li:hover {
+        color: rgba(0, 0, 0, 0.514);
+        transition: 0.2s;
+        /* font-size: 1.8rem; */
+    }
+    
+    button:hover {
+        color: rgba(0, 0, 0, 0.514);
+        transition: 0.2s;
+        font-size: 1.8rem;
+    }
+    
+    button {
+        color: white;
+        padding: 0;
+        background-color: transparent;
+        font-size: 1.7rem;
+        border: none;
+    }
+
+    .side{
+        height: 384px;
+    display: flex;
+    
+    }
+
+    .side ul {
+        
+      
+    
+        display: inline-grid;
+        align-content: space-evenly;
+       
+        padding: 0 0.2em;
+        background: rgba(240, 121, 96);
+        margin: 0;
+        border-radius: 0 5px 5px 0;
+        width: 3rem;
+        list-style: none;
+        font-size: 1.4rem;
+        color: rgba(255, 255, 255, 0.788);
+        height : 384
+        
+
+    } 
+
+    .myinsights{
+        margin-top: -2rem;
+    }
