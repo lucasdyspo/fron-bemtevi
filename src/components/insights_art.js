@@ -13,7 +13,7 @@ function Myinsights({like, rating, props}) {
     return (
 
        
-            <ul className=" myinsights d-flex list-inline justify-content-evenly">
+            <ul className="d-flex list-inline justify-content-between myinsights ">
                 <li>4.8</li>
                 <li>
                  <FaInstagram />

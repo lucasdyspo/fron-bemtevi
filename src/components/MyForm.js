@@ -16,8 +16,8 @@ function MyForm({like, rating, props}) {
             <ul>
                 <li>{rating}</li>
                 <li>
-                    <div className = "btn">
-                    </div> <FaInstagram />
+                    
+                    <FaInstagram />
                 </li> 
 
                 <a href='http://127.0.0.1:8000/art/teste/6/comments/'><li className = "btn"> <FaHeart/> </li></a>

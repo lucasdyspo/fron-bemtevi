@@ -17,7 +17,7 @@ function Home() {
                     <form method="GET" action="#" >
                         <input className="form-control" type="text" placeholder="search" name="search"></input>
                     </form>
-                    <Link to="/search/"></Link>
+                    
                 </div>
             
             
@@ -54,10 +54,11 @@ function Home() {
             </div>
 
 
-            <Hgs/>
+           
 
             </div>
             
+            <Hgs/>
 
         </div>
     )
