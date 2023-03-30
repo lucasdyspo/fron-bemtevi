@@ -6,8 +6,35 @@ import { FaInstagram, FaFacebook, FaLinkedin, FaHandPointUp, FaBitcoin, FaHeart,
 function MyForm({like, rating, props}) {
     const domain = 'http://localhost:8000/'
     const appl = 'login/profile/'
-    let id = '1/'
-    console.log(props)
+    let id = 1
+    // console.log(props)
+
+
+    function like(postid) {
+        // faz alguma coisa com os parâmetros
+          console.log(postid)
+          const domain = 'http://localhost:8000/'
+          const appl = 'api/post/'
+          let id = postid
+          const sufix = '/like/'
+
+          const endpoint = domain + appl + id + sufix
+          
+          fetch(endpoint, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({"Post": postid })
+          })
+          .then(response => response.json())
+          .then(data => {
+            console.log(data); // faça algo com os dados recebidos do servidor
+          })
+          .catch(error => {
+            console.error(error); // lida com erros de requisição
+          });
+        }
 
 
     return (
@@ -20,10 +47,11 @@ function MyForm({like, rating, props}) {
                     <FaInstagram />
                 </li> 
 
-                <a href='http://127.0.0.1:8000/art/teste/6/comments/'><li className = "btn"> <FaHeart/> </li></a>
+                <li className = "btn"> <FaHeart/> </li>
                 <a href={domain + appl + id}> <li>   <FaRegStickyNote/> </li> </a>
-                <li> <h6 className="like">{like}</h6> <FaThumbsUp/> </li>  
+                <li><button onClick={like(2)} className="like" ><FaThumbsUp/></button></li>  
                 <li> <FaUsers/> </li> 
+              
             
             </ul> 
         </div>

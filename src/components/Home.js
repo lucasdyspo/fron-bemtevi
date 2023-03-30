@@ -31,27 +31,27 @@ function Home() {
                 </div>
             <div className="d-grid gap-5">
 
+                    <ImagemG/>
+                    <ImagemG/>
+                    <div className="contaiffn">
+                        <div className="d-flex justify-content-center">
+
+                            <ImagemM/>
+                            <ImagemM/>
+                        </div>
+                    </div>
+
+
+                    <div className="container-lg">
+                        <div className="d-flex justify-content-center">
+
+                            <ImagemM/>
+                            <ImagemM/>
+                        </div>
+                    </div>
+                    
             <ImagemG/>
-            <ImagemG/>
-            <div className="container-lg">
-            <div className="d-flex justify-content-center">
-
-            <ImagemM/>
-            <ImagemM/>
-            </div>
-            </div>
-
-
-            <div className="container-lg">
-            <div className="d-flex">
-
-            <ImagemM/>
-            <ImagemM/>
-            </div>
-            </div>
-            <div>
-                <ImagemG/>
-            </div>
+            
 
 
            

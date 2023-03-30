@@ -5,19 +5,38 @@
     }
     .like{
         display: flex;
-        color:blue;
-        margin-bottom: 0px;
-    margin-top: 0px;
-    position:fixed;
-    border-radius: 364px;
-    background-color: #e9e7e747;
-    border-top-width: 2px;
+        /* color:blue; */
+        /* margin-bottom: 0px; */
+    /* margin-top: 0px; */
+    /* position:fixed; */
+    /* border-radius: 364px; */
+    /* background-color: #e9e7e747; */
+    /* border-top-width: 2px; */
     /* padding-top: 7px; */
-    padding-left: 4px;
-    margin-top: 6px;
-    font-size:medium;
-    position: absolute;
+    /* padding-left: 4px; */
+    /* margin-top: 6px; */
+    /* font-size:medium; */
+    /* position: absolute; */
     }
+
+    .like:active {
+        /* background-color: blue; */
+        color: blue;
+    }
+
+    .like:hover {
+        color: blue;
+    }
+
+
+
+
+
+
+
+
+
+
     
     input,
     textarea,

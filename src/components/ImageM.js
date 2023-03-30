@@ -22,7 +22,7 @@ function ImagemM() {
     let id = '1/'
 
     
-    console.log(jsonn[0])
+    // console.log(jsonn[0])
 
 
 

@@ -1,10 +1,11 @@
 .cont {
     display: flex;
-    width: 520px;
-    height: 384px;
+    width: 62%;
+    /* width: 550px; */
+    height: auto;
     /* left: 288px;
     top: 245px; */
-    background: #f8f8f8;
+    background: #896d6d;
     border-radius: 10px;
     /* margin: 40px; */
     align-items: flex-end;
@@ -24,8 +25,9 @@
 
 
 .m {
-    width: 310px;
+    width: 340px;
     height: 254px;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 0.5rem;
 
 }

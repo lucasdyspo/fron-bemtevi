@@ -3,22 +3,18 @@ import Shadow from './shadow_back';
 
 
 
-function Box_direita(props) {
+function Box_direita({props}) {  
     return (
         <div>
         <div className='box_direita'>
-            <Shadow/>
+            <Shadow title={props.title} description={props.description}/>
             <img>
-            </img>
-           
-
-            
+            </img>            
             <div>
                 <h1>kjhkjh </h1>
 
                <p>posdl lsaldsçaldsaçdl mlsdkal kdsalkd las dkasokope fkoak </p>
-            </div>
-               
+            </div>  
             </div> 
         </div>
     )

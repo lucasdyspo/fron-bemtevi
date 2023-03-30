@@ -22,25 +22,19 @@ function ImagemG() {
     let id = '1/'
 
     
-    console.log(jsonn[0])
+    // console.log(jsonn[0])
 
 
 
 
     return ( 
-        <a href={domain + art + jsonn[0].id}> 
-        <div className='cont' >
-            
-           
-             
-                
-                <MyForm like={jsonn[0].likes} rating='12' props={jsonn[0].users_collaborators}/>
-                <Drop title ={jsonn[0].name}desc ={jsonn[0].description} props={jsonn[0].user_main}/>
-            
-            
-            
-        </div>
-        </a>
+        // <a href={domain + art + jsonn[0].id}> 
+          <div className='cont' >
+                 
+              <MyForm like={jsonn[0].likes} rating='12' props={jsonn[0].users_collaborators}/>
+              <Drop title ={jsonn[0].name}desc ={jsonn[0].description} props={jsonn[0].user_main}/>              
+          </div>
+        // </a>
     )
 }
 

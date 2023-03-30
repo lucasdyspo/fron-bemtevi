@@ -7,7 +7,7 @@ function Myinsights({like, rating, props}) {
     const domain = 'http://localhost:8000/'
     const appl = 'login/profile/'
     let id = '1/'
-    console.log(props)
+    // console.log(props)
 
 
     return (

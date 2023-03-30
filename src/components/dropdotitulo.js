@@ -3,7 +3,7 @@ import './dropdotitulo.css'
 
 
 function drop({ title, desc, props}) {
-    console.log(props)
+    // console.log(props)
     const domain = 'http://localhost:8000/'
     const appl = 'login/profile/'
     const art = 'art/artpage/'

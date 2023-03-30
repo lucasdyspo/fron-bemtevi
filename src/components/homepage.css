@@ -1,9 +1,10 @@
 .pagehome{
     display: flex;
     justify-content: center;
-    margin-right: 4rem;
+    margin-right: 5rem;
     display: grid;
     justify-items: center;
+    padding-top: 3.3rem;
 }
 
 
@@ -19,3 +20,61 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
+
+@media (max-width: 990px)
+{
+  .hgs
+   {
+    display: none;
+   }
+   .pagehome{
+    margin-right: 0;
+   }
+}
+
+
+
+@media (max-width: 750px){
+
+.side{
+    height: 280px;
+   }
+
+   .drop{
+    padding-right: 3rem;
+   font-size: xx-small;   
+   }
+   .drop h4{
+    font-size: 15px;   
+   }
+
+
+   .pagehome{
+    margin-right: 0;
+   }
+
+   .m{
+    width: 250px;
+    height: 210px;
+   }
+
+}
+
+
+@media (max-width: 600px){
+
+
+       .m{
+        display: none;
+       }
+    
+    }
+
+
+    @media (max-width: 450px){
+
+        .cont{
+            width:72%;
+        }
+    }
