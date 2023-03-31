@@ -1,7 +1,10 @@
+/* eslint-disable jsx-a11y/alt-text */
 import './imagemG.css'
 import MyForm from './MyForm'
 import Drop from "./dropdotitulo"
 import { useEffect, useState } from 'react';
+import './img_profile.css'
+import belle from "./94216003_847113199123818_8528177430386045050_n (1).jpg"
 
 function ImagemG() {
 
@@ -29,12 +32,18 @@ function ImagemG() {
 
     return ( 
         // <a href={domain + art + jsonn[0].id}> 
-          <div className='cont' >
-                 
-              <MyForm like={jsonn[0].likes} rating='12' props={jsonn[0].users_collaborators}/>
-              <Drop title ={jsonn[0].name}desc ={jsonn[0].description} props={jsonn[0].user_main}/>              
+        
+          <div className='cont ' >
+            <img src="/static/media/94216003_847113199123818_8528177430386045050_n (1).759625e64a751d4adbc9.jpg" height='384px' width='600px'>
+              </img>
+            
+              <MyForm like={jsonn[0].likes} rating='12' props={jsonn[0].users_collaborators} />
+                    <Drop title ={jsonn[0].name}desc ={jsonn[0].description} props={jsonn[0].user_main}/>              
+      
+          
+          
           </div>
-        // </a>
+          
     )
 }
 

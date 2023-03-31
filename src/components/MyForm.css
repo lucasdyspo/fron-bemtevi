@@ -83,6 +83,7 @@
     .side{
         height: 384px;
     display: flex;
+    position: absolute;
     
     }
 

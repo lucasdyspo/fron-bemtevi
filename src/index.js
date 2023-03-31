@@ -24,6 +24,11 @@ const router = createBrowserRouter([{
 {
   path: '/post/',
   element: <Art_page/>
+},
+
+{
+  path: '/search',
+  element: <Search_page/>
 }
 
 

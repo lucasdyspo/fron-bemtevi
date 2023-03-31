@@ -1,9 +1,9 @@
 .pagehome{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin-right: 5rem;
     display: grid;
-    justify-items: center;
+    /* justify-items: center; */
     padding-top: 3.3rem;
 }
 
@@ -76,5 +76,11 @@
 
         .cont{
             width:72%;
+        }
+
+
+
+        .gap-5{
+            margin: 0;
         }
     }

@@ -5,14 +5,18 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* align-items: flex-start; */
-    /* width: 100%; */
     height: 23%;
     overflow: hidden;
     border-radius: 10px 0 0 10px;
     color: white;
     padding-right: 8rem;
     font-size: small;
+    /* position: absolute; */
+    /* width: inherit; */
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: -91px;
+
 }
 
 .drop:hover {

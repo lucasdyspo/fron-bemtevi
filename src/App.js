@@ -28,16 +28,19 @@ function App() {
     </script>
 
     
-const router = createBrowserRouter([{
-    path:'/home',
-    element:<Home/>,
-},
-{
-    path:'/profile',
-    element: <Profile/>
-}
-
-]);
+// const router = createBrowserRouter([{
+//     path:'/home',
+//     element:<Home/>,
+// },
+// {
+//     path:'/profile',
+//     element: <Profile/>
+// },
+// {
+//     path: '/search',
+//     element: <Search_page/>
+// }
+// ]);
 
     return ( 
 
