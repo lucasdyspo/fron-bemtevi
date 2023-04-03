@@ -12,6 +12,7 @@ import Art_page from './components/page_art';
 
 
 
+
 const router = createBrowserRouter([{
   path:'/home',
   element:<Home/>,
@@ -22,14 +23,17 @@ const router = createBrowserRouter([{
 },
 
 {
-  path: '/post/',
+  path: '/post/:id',
   element: <Art_page/>
 },
 
 {
-  path: '/search',
+  path: '/search/',
   element: <Search_page/>
-}
+},
+
+
+
 
 
 ]);

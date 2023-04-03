@@ -10,7 +10,7 @@ function drop({ title, desc, props}) {
 
 
     return ( 
-        <nav className="drop">
+        <nav className="dropg">
             <div>
                 <a href = {domain + appl + props.id}></a>
                 <img className = "profile" src = { foto }/> 

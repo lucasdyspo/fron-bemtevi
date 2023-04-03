@@ -1,14 +1,9 @@
 .cont {
     display: flex;
-    width: 46%;
+    
     max-width: 720px;
-    /* width: 550px; */
-    /* height: auto; */
-    /* left: 288px;
-    top: 245px; */
-    /* background: #896d6d; */
+    
     border-radius: 10px;
-    /* margin: 40px; */
     align-items: flex-end;
     flex-direction: row-reverse;
     justify-self: center;
@@ -19,7 +14,13 @@
     overflow: hidden;
 }
 
-.cont:hover{
+.g{
+    max-width: 720px;
+    width: 52%;
+
+}
+
+.g:hover{
     width: 48%;
     box-shadow: 8px 8px 8px 8px rgba(9, 0, 2, 0.3);
     /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
@@ -32,6 +33,10 @@
     width: -webkit-fill-available;
 
 }
+
+
+
+
 
 
 /* .pagehome {
@@ -51,6 +56,16 @@
     width: 340px;
     height: 254px;
     margin-right: 1.5rem;
+   
     margin-left: 0.5rem;
+
+}
+
+
+.dropm {
+    width: inherit;
+    height: auto;
+    margin-top: auto;
+    position: relative;
 
 }

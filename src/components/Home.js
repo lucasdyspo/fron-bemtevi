@@ -7,33 +7,23 @@ import { useState } from "react";
 import { hydrate } from "react-dom";
 import { EventHandler } from "react";
 import Loader from "./loader";
+import Search from "./search_home";
 
 
 function Home(props) {
 
-   const [Search, setSearch] = useState("");
-
-    function searchLoad(e) {
-        props.history.push("/search")
-    }  
-
+ 
     return ( 
         <div className='pagehome'>
-                <div>
-                    <form method="GET"  onSubmit={searchLoad} action="/search">
-                        <input onChange={e => setSearch(e.target.value)} className="form-control" type="text" placeholder="search" id="search" name="search"></input>
-        
-                    </form>
-                    
-                </div>
+             
 
-
+                <Search/>
                 <Loader/>
 
             
             
                 <div className="ballon_words">
-                    <ul className="list-inline justify-content-around">
+                    <ul className="list-inline justify-content">
                         <li className="list-inline-item">    rexemplo                </li>
                         <li className="list-inline-item"> comééedia </li>
                         <li className="list-inline-item">draaaam uiii</li>

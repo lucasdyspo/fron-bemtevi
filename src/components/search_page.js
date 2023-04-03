@@ -3,21 +3,23 @@ import Hgs from "./hgs";
 import './homepage.css';
 import ImagemM from "./ImageM";
 import { useState } from "react";
+import { useHistory, useLocation } from "react-router-dom";
 // import {withRouter} from 'react-router-dom';
+import Search from "./search_home";
 
-function Search_page(props) {
-    console.log(props)
+const Search_page = (props) => {
+    console.log(window.location.href)
+
+     const params = new URLSearchParams(window.location.search);
+     const searchValue = params.get("search"); 
+     console.log(searchValue)
 
 
-    const [posts, setPosts] = useState([])
+
+
     const url = 'apisearch'
 
-    console.log(props.location)
-    const [Search, setSearch] = useState("");
-
-    function searchLoad(e) {
-        props.history.push("/search")
-    }  
+    
 
    
 
@@ -27,31 +29,49 @@ function Search_page(props) {
 
 
     return ( 
-        <div className='container'>
+        <div>
             <br></br>
             <br></br>
-                <div>
-                <form method="GET"  onSubmit={searchLoad} >
-                <input onChange={e => setSearch(e.target.value)} className="form-control" type="text" placeholder="search" id="search" name="search"></input>
-                    </form>
-                </div>
+                <Search/>
                 <br>
                 </br>
             
                 <div>
                     <h4 className="fw-normal">
-                        Exibindo resultados para <strong>paalavra</strong>
+                        Exibindo resultados para <strong>{searchValue}</strong>
                     </h4>
                 </div>
 
 
-        <div className="d-grid">
+        <div className="d-grid gap-5">
             <nav className="d-flex">
 
 
             
             <ImagemM/>
             
+            <ImagemM/>
+            <ImagemM/>
+        
+
+            </nav>
+            <nav className="d-flex">
+
+
+                        
+            <ImagemM/>
+
+            <ImagemM/>
+            <ImagemM/>
+
+
+            </nav>
+            <nav className="d-flex">
+
+
+                        
+            <ImagemM/>
+
             <ImagemM/>
             <ImagemM/>
 

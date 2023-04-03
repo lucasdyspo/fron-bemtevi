@@ -33,7 +33,7 @@ function ImagemG() {
     return ( 
         // <a href={domain + art + jsonn[0].id}> 
         
-          <div className='cont ' >
+          <div className='cont g' >
             <img src="/static/media/94216003_847113199123818_8528177430386045050_n (1).759625e64a751d4adbc9.jpg" height='384px' width='600px'>
               </img>
             

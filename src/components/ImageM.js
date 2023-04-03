@@ -2,6 +2,7 @@ import './imagemG.css'
 import MyForm from './MyForm'
 import Drop from "./dropdotitulo"
 import { useEffect, useState } from 'react';
+import belle from "./94216003_847113199123818_8528177430386045050_n (1).jpg"
 import Myinsights from './insights_art';
 function ImagemM() {
 
@@ -32,13 +33,15 @@ function ImagemM() {
         <div className='m'>
         <a href={domain + art + jsonn[0].id}> 
         <div className='cont m' >
+            <img className='cont' src={belle}></img>
             
            
              
                 
                 {/* <MyForm like={jsonn[0].likes} rating='12' props={jsonn[0].users_collaborators}/> */}
+              
                 <Drop title ={jsonn[0].name} props={jsonn[0].user_main}/>
-            
+    
                 
             
         </div>
