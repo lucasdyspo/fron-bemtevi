@@ -6,26 +6,17 @@ import './img_lateral.css'
 function Iimg(props) {
 
 
-    return ( <
-        div style = {
-            {
-                backgroundImage: `url("https://via.placeholder.com/500")`
-            }
-        }
-        className = "lateral" >
+    return (
+        <div style={{ backgroundImage: `url("https://via.placeholder.com/500")` }} className="lateral" >
 
-        <
-        Shadow / >
-        <
-        div >
-        <
-        h3 > { props.title } < /h3> <
-        p > { props.desc } < /p> < /
-        div >
+            <Shadow />
+            <div>
+                <h3> {props.title} </h3>
+                <p> {props.desc} </p> 
+            </div>
 
 
-        <
-        /div>
+        </div>
     )
 
 }

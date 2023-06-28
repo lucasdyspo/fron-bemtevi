@@ -1,5 +1,5 @@
 import './Selected_by_dev.css'
-import Box_direita from './box_direita'
+import Selected_by_dev_box from './selected_by_dev_box'
 import { useEffect, useState } from 'react'
 import { NavItem } from 'react-bootstrap';
 
@@ -86,8 +86,12 @@ export default function Selected_by_dev() {
             
             ))} */}
 
-
-
+            <div>
+            <Selected_by_dev_box/>
+            </div>
+            <div>
+              <Selected_by_dev_box/>
+            </div>
 
     </div>
   )

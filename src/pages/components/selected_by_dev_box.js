@@ -1,13 +1,13 @@
-import './box_direita.css'
+import './selected_by_dev_box.css'
 import Shadow from './shadow_back'; 
 
 
 
-function Box_direita({props}) {  
+function Selected_by_dev_box() {  
     return (
         <div>
         <div className='box_direita'>
-            <Shadow title={props.title} description={props.description}/>
+            <Shadow title='pau' description='picaa'/>
             <img>
             </img>            
             <div>
@@ -22,4 +22,4 @@ function Box_direita({props}) {
 
 }
 
-export default Box_direita;
+export default Selected_by_dev_box;

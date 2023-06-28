@@ -1,4 +1,4 @@
-import './ballons_profile.css'
+import './ballons_info_profile.css'
 
 
 function Ballons_profile() {

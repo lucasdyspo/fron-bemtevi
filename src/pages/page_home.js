@@ -17,8 +17,8 @@ function Home(props) {
         <div className='pagehome'>
 
 
-            <Search />
-            <Loader />
+            <Search/>
+            <Loader/>
 
 
 
