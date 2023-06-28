@@ -5,43 +5,44 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Home from './components/Home';
-import Profile from './components/profile_page';
-import Search_page from './components/search_page';
-import Art_page from './components/page_art';
+import Home from './pages/page_home';
+// import Profile from './pages/page_profile';
+// import Search_page from './pages/page_search';
+// import Art_page from './pages/page_art';
 
 
 
 
-const router = createBrowserRouter([{
-  path:'/home',
-  element:<Home/>,
-},
-{
-  path:'/profile',
-  element: <Profile/>
-},
+// const router = createBrowserRouter([{
+//   path:'/home',
+//   element:<Home/>,
+// },
+// {
+//   path:'/profile',
+//   element: <Profile/>
+// },
 
-{
-  path: '/post/:id',
-  element: <Art_page/>
-},
+// {
+//   path: '/post/:id',
+//   element: <Art_page/>
+// },
 
-{
-  path: '/search/',
-  element: <Search_page/>
-},
-
-
+// {
+//   path: '/search/',
+//   element: <Search_page/>
+// },
 
 
 
-]);
+
+
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-   <RouterProvider router={router}/>
-    
+    {/* <div> */}
+   <App/>
+   {/* </div> */}
   </React.StrictMode>
 );
 
