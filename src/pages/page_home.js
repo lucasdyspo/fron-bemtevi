@@ -1,4 +1,4 @@
-import ImagemG from "./components/imagemG";
+import BlockArtLarge from "./components/BlockArtLarge";
 import Selected_by_dev from "./components/Selected_by_dev";
 import './page_home.css';
 import ImagemM from "./components/ImageM";
@@ -17,8 +17,8 @@ function Home(props) {
         <div className='pagehome'>
 
 
-            <Search/>
-            <Loader/>
+            <Search />
+            <Loader />
 
 
 
@@ -32,8 +32,8 @@ function Home(props) {
             </div>
             <div className="d-grid gap-5">
 
-                <ImagemG />
-                <ImagemG />
+                <BlockArtLarge />
+                <BlockArtLarge />
                 <div className="contaiffn">
                     <div className="d-flex justify-content-center">
 
@@ -51,7 +51,7 @@ function Home(props) {
                     </div>
                 </div>
 
-                <ImagemG />
+                <BlockArtLarge />
 
 
 

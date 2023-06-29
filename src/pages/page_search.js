@@ -1,4 +1,4 @@
-import ImagemG from ".components/imagemG";
+import BlockArtLarge from ".components/imagemG";
 import Selected_by_dev from ".components/hgs";
 import '.components/homepage.css';
 import ImagemM from ".components/ImageM";

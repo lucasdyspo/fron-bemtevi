@@ -1,5 +1,5 @@
 import "./App.css";
-// import ImagemG from './components/imagemG';
+// import BlockArtLarge from './components/imagemG';
 // import a from "./components/00.json";
 // import { useState, useEffect } from "react";
 // import Comments_box from "./components/arts_pages";

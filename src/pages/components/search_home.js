@@ -1,4 +1,4 @@
-import ImagemG from "./imagemG";
+import BlockArtLarge from "./BlockArtLarge";
 import Selected_by_dev from "./Selected_by_dev";
 import '../page_home.css';
 import ImagemM from "./ImageM";

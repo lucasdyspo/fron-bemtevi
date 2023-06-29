@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
-import './imagemG.css'
+import './BlockArtLarge.css'
 import Options_side_art from './Options_side_art'
-import Drop from "./dropdotitulo"
+import HeaderArtHome from "./HeaderArtHome"
 import { useEffect, useState } from 'react';
 import './img_profile.css'
 import belle from "./94216003_847113199123818_8528177430386045050_n (1).jpg"
 
-function ImagemG() {
+function BlockArtLarge() {
 
     const url = 'http://127.0.0.1:8000/art/teste/6/comments/';
     const uri = 'https://jsonplaceholder.typicode.com/todos/1'
@@ -38,7 +38,7 @@ function ImagemG() {
               </img>
             
               <Options_side_art like={jsonn[0].likes} rating='12' props={jsonn[0].users_collaborators} />
-                    <Drop title ={jsonn[0].name}desc ={jsonn[0].description} props={jsonn[0].user_main}/>              
+                    <HeaderArtHome title ={jsonn[0].name}desc ={jsonn[0].description} props={jsonn[0].user_main}/>              
       
           
           
@@ -50,7 +50,7 @@ function ImagemG() {
 
 
 
-export default ImagemG;
+export default BlockArtLarge;
 
 
 

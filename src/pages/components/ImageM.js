@@ -1,6 +1,6 @@
-import './imagemG.css'
+import './HeaderArtHome.css'
 import Options_side_art from './Options_side_art'
-import Drop from "./dropdotitulo"
+import HeaderArtHome from "./HeaderArtHome"
 import { useEffect, useState } from 'react';
 import belle from "./94216003_847113199123818_8528177430386045050_n (1).jpg"
 import Myinsights from './insights_art';
@@ -40,7 +40,7 @@ function ImagemM() {
 
                         {/* <Options_side_art like={jsonn[0].likes} rating='12' props={jsonn[0].users_collaborators}/> */}
 
-                        <Drop title={jsonn[0].name} props={jsonn[0].user_main} />
+                        <HeaderArtHome title={jsonn[0].name} props={jsonn[0].user_main} />
 
 
 

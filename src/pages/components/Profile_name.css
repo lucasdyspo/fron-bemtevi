@@ -4,7 +4,7 @@
     border-radius: 90px;
     width: 484px;
     height: 116px;
-    backdrop-filter: blur(1.3px);
+    backHeaderArtHome-filter: blur(1.3px);
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0) 90.62%);
 }
 
@@ -13,7 +13,6 @@
     justify-content: center;
     padding-top: 5px;
     align-items: center
-
 }
 
 #flex h1 {
@@ -21,7 +20,7 @@
     font-weight: 400;
     padding-top: 50px;
     font-size: 18px;
-    line-height: 12px; 
+    line-height: 12px;
     margin: 28px;
 
 }
